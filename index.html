@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Teacher Exam Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f7fb;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 400px;
+      margin: 50px auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+
+    label {
+      font-weight: bold;
+      margin-top: 10px;
+      display: block;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      margin-top: 15px;
+      width: 100%;
+      padding: 10px;
+      background: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background: #45a049;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+  <h2>Teacher Exam Form</h2>
+
+  <form>
+    
+    <label>Full Name</label>
+    <input type="text" placeholder="Enter your name" required>
+
+    <label>Email</label>
+    <input type="email" placeholder="Enter your email" required>
+
+    <label>Phone Number</label>
+    <input type="tel" placeholder="Enter phone number" required>
+
+    <label>Subject</label>
+    <select required>
+      <option value="">Select Subject</option>
+      <option>Mathematics</option>
+      <option>Science</option>
+      <option>English</option>
+      <option>Computer</option>
+    </select>
+
+    <label>Exam Date</label>
+    <input type="date" required>
+
+    <label>Experience (Years)</label>
+    <input type="number" placeholder="Enter experience">
+
+    <label>Address</label>
+    <textarea rows="3" placeholder="Enter address"></textarea>
+
+    <button type="submit">Submit</button>
+
+  </form>
+  <a href="/hello">Home Page</a>
+</div>
+
+
+
+
+
+
+</body>
+</html>
